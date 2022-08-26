@@ -1,0 +1,54 @@
+@import "./base.css";
+
+.calc{
+  border: 3px solid #ff88e5;
+  padding: 30px;
+  max-width: 830px;
+  display: block;
+}
+h1{
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://i.pinimg.com/originals/82/54/88/825488f7859acb3fac46bae10607618a.png)
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.valores-forms {
+  display: grid;
+  margin-top: 17px;
+}
+input, select{
+  height: 30px;
+  padding-left: 10px;
+}
+strong {
+  text-decoration: underline solid #ff88f5;
+}
+span{
+  margin-left: 5px;
+}
+label{
+  font-size: 1.1em;
+  color: white;
+}
+.resultado {
+  background-color: #ff88f5;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.resultado span {
+  font-size: 2em;
+}
